@@ -118,7 +118,7 @@ resource "aws_iam_instance_profile" "worker" {
 
 ###############################################################################################################
 resource "aws_eks_cluster" "eks" {
-  name = "taxi-eks-01"
+  name = "taxi-eks-02"
   role_arn = aws_iam_role.master.arn
 
   vpc_config {
